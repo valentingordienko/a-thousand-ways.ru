@@ -1,0 +1,48 @@
+{
+  "name": "a-thousand-ways.com",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Valentin Gordienko",
+  "private": true,
+  "engines": {
+    "node": "^10.13"
+  },
+  "scripts": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.5",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "normalize.css": "^7.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "antd": "^3.1.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-emotion": "^9.1.0",
+    "babel-plugin-import": "^1.4.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "ignore-loader": "^0.1.2",
+    "nodemon": "^1.15.1",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}
