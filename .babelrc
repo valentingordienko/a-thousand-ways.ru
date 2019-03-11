@@ -1,0 +1,10 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    /*"emotion",
+    ["import", {"libraryName": "antd", "style": "css"}],*/
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-regenerator"
+  ]
+}
