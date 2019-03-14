@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.app {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: aliceblue;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center;
+}
