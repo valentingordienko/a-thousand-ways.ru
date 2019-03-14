@@ -20,7 +20,7 @@ module.exports = [
 		*/
 		entry: {
 			babelPolyfill: 'babel-polyfill',
-			index: ['./src/frontend/index.client.js']
+			index: ['./src/client/index.client.js']
 		},
 		/*
 		* Определение имен итоговых файлов и места их хранения
@@ -71,11 +71,11 @@ module.exports = [
 	},
 	{
 		entry: {
-			index: './src/frontend/index.server.js',
+			index: './src/client/index.server.js',
 		},
 		output: {
-			filename: '[name]-html.js',
-			path: path.resolve(__dirname, 'src/backend/static-markup'),
+			filename: '[name].js',
+			path: path.resolve(__dirname, 'src/server/static-markup'),
 			libraryTarget: 'umd'
 		},
 		target: 'node',
