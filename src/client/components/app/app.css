@@ -7,7 +7,8 @@ html, body {
     height: 100%;
     flex-direction: column;
     background-color: aliceblue;
-    font-family: Arial;
+    font-family: SSP-R, Arial, sans-serif;
+    line-height: 1;
     justify-content: center;
     align-items: center;
 }
